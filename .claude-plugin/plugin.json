@@ -1,0 +1,8 @@
+{
+  "name": "clipboard",
+  "version": "1.0.0",
+  "description": "Copy and read system clipboard content with cross-platform support",
+  "author": {
+    "name": "Martin Hjärtmyr"
+  }
+}
