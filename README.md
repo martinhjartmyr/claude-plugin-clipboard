@@ -66,10 +66,10 @@ Example workflows:
 
 ```bash
 # Add the marketplace (first time only)
-claude plugin marketplace add martinhjartmyr/claude-plugins-mh
+claude plugin marketplace add martinhjartmyr/mh-cc-plugins
 
 # Install the plugin
-claude plugin install clipboard@claude-plugins-mh
+claude plugin install clipboard@mh-cc-plugins
 ```
 
 ## License
