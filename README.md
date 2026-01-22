@@ -60,6 +60,16 @@ Example workflows:
 | Linux (Wayland) | `wl-copy`                    | `wl-paste`                      |
 | WSL             | `clip.exe`                   | `powershell.exe Get-Clipboard`  |
 
+## Security Note
+
+When you install this plugin, Claude Code displays a warning:
+
+> Claude Code may read, write, or execute files contained in this directory.
+
+This is expected behavior. The plugin uses skills that execute system clipboard commands (`pbcopy`, `pbpaste`, `xclip`, `wl-copy`, `wl-paste`, `clip.exe`). These are standard utilities included with your operating system - the plugin does not install or download any additional software.
+
+The plugin's permissions are limited to these clipboard utilities only.
+
 ## Installation
 
 ### From Marketplace
